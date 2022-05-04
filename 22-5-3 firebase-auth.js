@@ -35,6 +35,9 @@ function add() {
   if (title === "" || content === "") {
     alert("Title or content hasn't completed");
   }
+  else if(user === null){
+    alert("log in first");
+  }
   else {
     db.collection("posts").doc(`${uuid}`).set({
       title: title,
