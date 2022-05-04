@@ -1,0 +1,91 @@
+
+.line {
+  border-top: 4px solid black;
+}
+
+#articlecontent #save {
+  /*border: 0.5px solid gray ;*/
+  margin-top: 5%;
+  font-size: 40px;
+  width: 150px;
+  text-align: center;
+  height: 60px;
+  
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    line-height: 40px;
+    color: white;
+    background-color: black;
+    transition: all .3s linear;
+} 
+#articlecontent #save:hover{
+  background-color: #666;
+}
+
+
+#save p{
+  transform: translate(0%, 20%);
+}
+.row {
+  margin: 5% 100px ;
+}
+#articlecontent #show {
+  background-color: grey;
+  font-size: 50px;
+}
+
+.titlefont {
+  font-size: 23px;
+  font-family: Arial Black;
+}
+.x{
+  max-width: 5%;
+  text-align: center;
+  border: 1px solid black;
+}
+.post{
+  border: 1px dashed black;
+  margin: 5%;
+  padding: 5%;
+  font-size: 15px;
+}
+#articletitle p{
+  font-family: "DFKai-SB";
+}
+h2{
+  font-family: "serif";
+}
+.content{
+  margin-left: 5%;
+  margin-top: 5%;
+}
+h1{
+  font-family: "Brush Script MT", cursive;
+  font-size: 75px;
+}
+#profile p , #profile input{
+  margin-bottom: 5%;
+  font-family: "serif";
+}
+
+Button {
+	box-shadow: 0px 1px 0px 0px #1c1b18;
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	background-color:#eae0c2;
+	border-radius:15px;
+	border:2px solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:12px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+Button:hover {
+	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+	background-color:#ccc2a6;
+}
