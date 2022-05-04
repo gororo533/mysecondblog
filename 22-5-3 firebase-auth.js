@@ -32,11 +32,9 @@ function add() {
   let datetmp = new Date().toISOString();
   //let dateobj = datetmp.slice(0,10);
   let user = firebase.auth().currentUser;
-  if (title === "" || content === "") {
-    alert("Title or content hasn't completed");
-  }
-  else if(user === null){
-    alert("log in first");
+  if (title === "" || content === "" || user === null) {
+    if (title === "" || content === "" )alert("Title or content hasn't completed");
+    if (user === null)alert("log in frist");
   }
   else {
     db.collection("posts").doc(`${uuid}`).set({
