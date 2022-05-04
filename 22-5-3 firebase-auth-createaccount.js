@@ -56,7 +56,7 @@ firebase.auth().onAuthStateChanged((user) => {
 });
 
 function returntoindex() {
-  document.location.href = "22-5-3 firebase-auth.html";
+  document.location.href = "index.html";
 }
 
 cabtn.addEventListener('click', createaccount);

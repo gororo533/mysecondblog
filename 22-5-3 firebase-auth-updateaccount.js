@@ -31,7 +31,7 @@ function updateaccount() {
     // ...
     console.log("update suc");
     alert("update successful");
-    document.location.href = "22-5-3 firebase-auth.html";
+    document.location.href = "index.html";
   }).catch((error) => {
     // An error occurred
     // ...
